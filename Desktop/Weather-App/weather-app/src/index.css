@@ -101,3 +101,21 @@ h1 {
 .bold {
   font-weight: 700;
 }
+
+@media screen and (max-width: 1000px) {
+  .app {
+    width: fit-content;
+    height: 100vh;
+  }
+  .app .container {
+    padding-top: 3rem;
+    text-align: center;
+  }
+  .app .top {
+    display: flex;
+    flex-direction: column;
+  }
+  .app .bottom {
+    margin-top: 9rem;
+  }
+}
